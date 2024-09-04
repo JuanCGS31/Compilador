@@ -1,7 +1,7 @@
 # Título del Proyecto
-Compilador que traductor de C en ingles a español
+Compilador que traductor de C en español a ingles
 ## Resumen
-El compilador recibe un codigo en ingles (de la forma en la que el lenguaje fue creado), en el proceso de la compilacion los valores resevados y demas procesos dentro del codigo se traducen al español.
+El compilador recibe un codigo en español, en el proceso de la compilacion los valores resevados y demas procesos dentro del codigo se traducen al ingles (de la forma en la que el lenguaje fue creado).
 
 ## Motivación y Problema a Resolver
 - Descripción del problema: La mayoria de los lenguajes convencionales estan escritos en ingles, por ello no todas las personas conocen el lenguaje y esto les puede ayudar a trabajar de forma colaborativa cuando se necesite con personas que no conocen el idioma.
@@ -9,7 +9,7 @@ El compilador recibe un codigo en ingles (de la forma en la que el lenguaje fue 
 - Casos de uso: Los trabajos colaborativos entre hablantes del ingles y del español, como una forma de facilitar el entendimiento.
 
 ## Objetivos del Proyecto
-- Objetivo 1: Convertir codigo de ingles a español
+- Objetivo 1: Convertir codigo de español a ingles
 - Objetivo 2: Crear el compilador de forma funcional
 - Objetivo 3: Comprender como funciona un lenguaje de programación 
 - Objetivo 4: Aprender mas sobre los proceso interno de la compleja actividad que es programar
@@ -21,7 +21,7 @@ El compilador recibe un codigo en ingles (de la forma en la que el lenguaje fue 
 
 ## Arquitectura y Diseño del Compilador
 - Diagrama de bloques: Se eliminan los espacios, se analiza el lexico, se tokeniza y se atrapa si se tiene errores, se analiza la semantica usando los tokens, creando un arbol sintactico y aportando a la tabla de simbolos, se analisa la cemantica crando otro arbol sintactico y aportando a la tabla de simbolos, se optimiza y da el resultado con la converción.
-- Explicación del flujo de datos: El programador programa en ingles, el compilador procesa el codigo tomando las palabras clave conviertiendolas de ingles a español.
+- Explicación del flujo de datos: El programador programa en español, el compilador procesa el codigo tomando las palabras clave conviertiendolas de español a ingles.
 - Decisiones de diseño: Se tendra para el proceso una interface para facilitar el proceso y como parte fundamental se tradujeron las palabras recervadas de ingles a español.
 
 ## Análisis Léxico
@@ -59,7 +59,7 @@ volatile = volatil
 while = mientras
 _Packed = _Empaquetado
 
-- Simbolos: -,~,!,*,&,_Alignof,sizeof,+,++,--,/,%,<<,>>,<,>,<=,>=,==,!=,|,^,&&,|| y ,
+- Simbolos: -,~,!,*,&,_Alignof,sizeof,+,++,--,/,%,<<,>>,<,>,<=,>=,==,!=,|,^,&&,||,= y ,
 
 ## Análisis Sintáctico
 
