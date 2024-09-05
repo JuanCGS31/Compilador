@@ -59,7 +59,7 @@ volatile = volatil
 while = mientras
 _Packed = _Empaquetado
 
-- Simbolos: -,~,!,*,&,_Alignof,sizeof,+,++,--,/,%,<<,>>,<,>,<=,>=,==,!=,|,^,&&,||,= y ,
+- **Simbolos:** -,~,!,*,&,_Alignof,sizeof,+,++,--,/,%,<<,>>,<,>,<=,>=,==,!=,|,^,&&,||,= y ,
 
 ## Análisis Sintáctico
 
